@@ -9,10 +9,10 @@ key = f.read()
 genai.configure(api_key=key)
 
 # Title of the app
-st.title("GenAI App - AI Code Reviewer")
+st.title("AI Code Reviewer")
 
 # subtitle of the app
-st.subheader("Please submit your code for expert review and get instant, helpful feedback!")
+st.subheader("Please Submit Your Code for Better Review")
 
 # Input area for Python code
 user_prompt = st.text_area("Enter your Python code here : ", placeholder="Paste your code here.....")
