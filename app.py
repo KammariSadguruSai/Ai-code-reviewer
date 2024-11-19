@@ -2,7 +2,7 @@ import google.generativeai as genai
 import streamlit as st
 
 # Set up Google Generative AI (GenAI) API key
-f = open("keys/gemini.txt")
+f = open("keys/gemini")
 key = f.read()
 
 # configure the generative ai api keys
